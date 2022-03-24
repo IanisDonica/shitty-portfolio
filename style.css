@@ -1,0 +1,566 @@
+* {
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+}
+.s1 {
+    background-color: #0f0f0f
+}
+.s2 {
+    background-color:  #0f0f0f;
+}
+.s3 {
+    display: flex;
+    align-items: center;
+    background-color: #e0dcdc;
+}
+.s4 {
+    background-color:  #0f0f0f;
+}
+.slogan1 {
+    color: white;
+    font-size: 6vh;
+    width: 100vw;
+    margin-bottom: 5.281vh;
+    font-family: 'Raleway', sans-serif;
+}
+.top_slogan {
+
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30px;    
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+}
+.gradient_text1 {
+    background: linear-gradient(71deg,#cfebff,#fcbabc 36%,#dd5183 55%,#ba75e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradient_text2 {
+    background: linear-gradient(71deg,#cfebff,#fcbabc 36%,#dd5183 55%,#ba75e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top_slogan_button {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vh;
+    color: white;
+    text-decoration: none;
+    border: white 1px solid;
+    padding: 2.11vh 4.9vh;
+    border-radius: 150px;
+}
+.bars {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    flex-wrap: wrap;
+}
+.bars_low {
+    display: inline-block;
+    width: 50%;  
+    height: 50%;
+    border: solid 1px #3c3c3c;
+    color: white;
+}
+.no_right {
+    border-right: none;
+    background-color: #0f0f0f;
+    z-index: 100;
+}
+.no_bottom {
+    border-bottom: none;
+}
+.bars_text {
+    z-index: 20;
+    position: relative;
+    top: 95%;
+    font-size: 2.816vh;
+    transform: translate(0, -100%);
+    left: 20px;
+    font-family: 'Raleway', sans-serif;
+    transition: 500ms linear;
+}
+.bars_text i {
+    margin-top: 0.616vh;
+    position: absolute;
+    right: 4vh;
+    font-size: 2.2vh;
+    transform: translate(-50%, 0);
+}
+.bars_img {
+    position: relative; 
+    width: 100%;
+    height: 101%;
+    position: relative;
+    top: -20px;
+    opacity: 0;
+    transition: 500ms linear;
+}
+.bars_low:hover .bars_img {
+    opacity: 1;
+}
+.bars_low:hover .bars_text {
+    filter: invert();
+}
+.drive {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.flex_cause_I_cant {
+    display: flex;
+    justify-content: center;
+}
+.drive_text {
+    font-size: 5.28vh;
+    color: white;
+    width: 70vw;
+    margin: 0px auto 40px auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(71deg,#cfebff,#fcbabc 36%,#dd5183 55%,#ba75e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.drive_brands {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+}
+.bottom_services {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.services_1, .services_2 {
+    
+    border: 1px solid #3c3c3c;
+    width: 50%;
+    height: 30vh;
+}
+.drive_brand { 
+}
+.logo {
+    display: block;
+    width: 13.204vh;
+    margin: 5px auto;
+}
+.SNW {
+    width: 35.2vh;
+}
+.JAA {
+    width: 35.2vh;
+    margin-bottom: 50px;
+}
+.drive_special {
+    display: block;
+    margin: auto;
+    width: 135px;
+    margin-top: 3vh;
+}
+.drive_special2 {
+    width: 200px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+.colums {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colum {
+    width: 50%;
+    height: 50%;
+    border: 1px solid #3c3c3c;
+}
+.white_power {
+    display: flex;
+    align-items: center;
+}
+.slogan_white {
+    font-size: 11vw;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 30px;
+}
+.under_slogan_white {
+    font-weight: bold;
+    margin: 30px 16px 16px 30px;
+    line-height: 1.6;
+    font-size: 2vh;
+    font-weight: 300;
+    width: 80vw;
+    font-family: 'Raleway', sans-serif;
+}
+.white_button {
+    color: black;
+    border-color: black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.book {
+    margin-top: 30px;
+}
+.projects {
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-content: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #3c3c3c;
+    /* background: linear-gradient(0deg , #000000dd, #222222dd), url("Office.jpg"); */
+}
+.project_header {
+    font-weight: bold;
+    position: relative;
+    transform: translate(0, -50%);
+    font-size: 4.753vh;    
+    font-family: 'Raleway', sans-serif;
+}
+.project_text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    font-size: 2.7vh;    
+    max-width: 320px;
+}
+.project_stuff {
+    position: relative;
+    top: 70px;
+    font-weight: bold;
+    border-right: solid 1px gray;
+    padding-right: 20px;
+    font-size: 5vw;   
+    font-family: 'Raleway', sans-serif;
+}
+.project_middle {
+    position: absolute;
+    left: 10%;
+    top: 43%;
+    transform: translate(0, -50%);
+}
+.project_middle2 {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.project_link {
+    position: absolute;
+    bottom: 25px;
+    left: 10%;
+}
+.projects2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background-position: bottom;
+    /* background: linear-gradient(0deg , #000000dd, #222222dd), url("image.jpg"); */
+    background-position: center;
+}
+.project_header2 {
+    color: white;
+}
+.project_text2 {
+    position: relative;
+    top: -15px;
+}
+.chat_header {
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    line-height: 1.1;
+    font-size: 7vh;
+    font-family: 'Raleway', sans-serif;
+    left: 5%;
+}
+.boxes {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    background-color: white;
+    display: block;
+    width: 50vw;
+    height: 25vh;
+    border: solid 1px hsla(0,0%,63.9%,.3);
+}
+.no_right2 {
+    border-right: none;
+}
+.no_bottom2 {
+    border-bottom: none;
+}
+.box_inner {
+    position: relative;
+    top: 90%;
+    transform: translate(0, -50%);
+}
+.box_inner svg {
+    position: relative;
+    top: -8.8vh;
+    left: 3.52vh;
+}
+.box_link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 3.52vh;
+    font-size: 2.81vh;
+    font-family: 'Raleway', sans-serif;
+    top: -7.04vh;
+    width: 10.5vh;
+}
+.box_link2 {
+    width: 80px;
+}
+.s2_opacity {
+    position: absolute;
+    bottom: 30%;
+    right: 5%;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.services_pag {
+    width: 100%;
+    display: block;
+    color: white;
+    position: absolute;
+    font-size: 2.816vh;
+    bottom: 2vh;
+    margin-left: 2vh;
+    font-family: 'Raleway', sans-serif;
+}
+.services_pag i {
+    position: absolute;
+    right: 5vh;
+    margin-top: 0.616vh;
+    font-size: 2.2vh;
+}
+.marginara {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    white-space: nowrap;
+}
+.image_that_needs {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s;
+}
+.projects_div {
+    display: none;
+}
+.chat_promotion {
+    display: none;
+}
+@media only screen and (min-width: 700px) {
+    .drive_text {
+        font-size: 8.8vw;
+    }
+    .project_link {
+        margin-bottom: 30px;
+        
+    }
+    .project_text {
+        max-width: 650px;
+    }
+    .box_link {
+        width: 18.75vw;
+    }
+    .under_slogan_white {
+        font-size: 3.55vw;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .section1_laptopdesktop {
+        display: flex;
+    }
+    .bars {
+        width: 50%;
+        height: 100%;
+        right: 0px;
+    }
+    .top_slogan {
+        top: 50%;
+        transform: translate(0, -50%);
+        margin-left: 5%;
+    }
+    .slogan1 {
+        font-size: 70px;
+        margin-bottom: 9vh;
+    }
+    .top_slogan_button {
+        padding: 1.8vh 3.8vh;
+    }
+    .drive {
+        width: 50%;
+        right: 40px;
+        height: auto;
+        transform: translate(0, -50%);
+        margin-left: 50px;
+        right: 20px;
+    }
+    .drive_text {
+        font-weight: bold;
+        margin-left: 0px;
+        max-width: clamp(300px,  43vw, 800px);
+        font-size: clamp(43.62px,  3vw, 60px);
+        text-align: start;
+    }
+    .bottom_services {
+        width: 50%;
+        height: 100%;
+    }
+    .services_1, .services_2 {
+        width: 75%;
+        height: 50%;
+        position: absolute;
+        left: 0px;
+    }
+    .services_1 {
+        top: 0px;
+        border-right: 1px solid #3c3c3c;
+        border-bottom: none;
+    }
+    .services_2 {
+        bottom: 0px;
+    }
+    .marginara {
+        position: static;
+        left: 0;
+        transform: translate(0, 0);
+        white-space: normal;
+    }
+    .boxes {
+        top: 0;
+        width: 50vw;
+        height: 100vh;
+        right: 0;
+    }    
+    .box {
+        height: 50vh;
+        flex: 1;
+    }
+    .chat_header {
+        position: absolute;
+        top: 25%;
+        transform: translateY(-50%);
+        font-size: 8.7vh;
+    }
+    .projects {
+        right: 0px;
+        width: 30vw;
+        height: 100vh;
+        border: 1px solid #3c3c3c;
+    }
+    .projects2 {
+        right: 30vw;
+        width: 30vw;
+        height: 100vh;
+        border: 1px solid #3c3c3c;
+        border-right: none;
+    }
+    .projects2:hover .image2 {
+        opacity: 1;
+    }
+    .projects:hover .image1 {
+        opacity: 1;
+    }
+    .projects_div {
+        display: block;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        color: white;
+        left: 5%;
+    }
+    .projects_header {
+        font-size: 6vh;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        display: block;
+    }
+    .projects_div a {
+        display: inline-block;
+        margin-top: 2vh;
+    }
+    .project_underline {
+        width: 30vw;
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        font-size: clamp(43.62px, 3vw, 60px);
+        color: white;
+    }
+    .call {
+        display: inline-block;
+        background: linear-gradient(71deg,#cfebff,#fcbabc 36%,#dd5183 55%,#ba75e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .slogan_white {
+        font-size: 80px;
+        max-width: 600px;
+    }
+    .under_slogan_white {
+        font-size: 30px;
+        max-width: 600px;
+    }
+    .email {
+        position: relative;
+        left: 24vh;
+        bottom: 7.7vh;
+    }
+    .white_button {
+        /* padding: 2vw 4vw; */
+    }
+    .white_div {
+        margin-left: 5%;
+    }
+    .chat_promotion {
+        display: block;
+        position: absolute;
+        bottom: 4vh;
+        left: 5%;
+        height: 45vh;
+        width: 50vw;
+    }
+    .follow {
+        position: absolute;
+        top: 0%;
+    }
+    .find {
+        position: absolute;
+        bottom: 7vh;
+    }
+    .follow_header {
+        fon
+    }
+}
