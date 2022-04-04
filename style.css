@@ -63,60 +63,11 @@
     flex-wrap: wrap;
 }
 .bars_low {
-    overflow: hidden;
     display: inline-block;
     width: 50%;  
     height: 50%;
     border: solid 1px #3c3c3c;
     color: white;
-    border: none;
-}
-.RB {
-    position: absolute;
-    background-color: #3c3c3c;
-}
-.R1T {
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 1px;
-}
-.R1B {
-    height: 100vh;
-    width: 1px;
-    bottom: 0;
-    left: 0;
-}
-.R1M {
-    width: 100%;
-    height: 1px;
-    bottom: 50vh;
-    left: 0;
-}
-.R2T {
-    bottom: 50%;
-    width: 1px;
-    height: 50%;
-}
-.R2B {
-    top: 50%;
-    width: 1px;
-    height: 50%;
-}
-.R2LTMOB, .R2RTMOB {
-    display: none;
-}
-.R2LTMOB {
-    right: 50vw;
-    width: 50%;
-    height: 1px;
-    top: 50%;
-}
-.R2RTMOB {
-    left: 50vw;
-    width: 50%;
-    height: 1px;
-    top: 50%;
 }
 .no_right {
     border-right: none;
@@ -127,7 +78,6 @@
     border-bottom: none;
 }
 .bars_text {
-    overflow: hidden;
     z-index: 20;
     position: relative;
     top: 95%;
@@ -443,22 +393,6 @@
 .chat_promotion {
     display: none;
 }
-/* .cursor {
-    height: 20px;
-    width: 20px;
-    background-color: transparent;
-    border-radius: 50%;
-    border-color: white;
-    position: absolute;
-} */
-/* #projects_hover {
-    z-index: 9999;
-    display: none;
-    position: absolute;
-}
-.bars_low:hover #projects_hover {
-    display : block;
-} */
 @media only screen and (min-width: 600px) {
     .drive_text {
         font-size: clamp(50px, 8.8vw, 60px);
@@ -493,8 +427,7 @@
         margin-left: 5%;
     }
     .slogan1 {
-        display: block;
-        font-size: 9.0vh;
+        font-size: 10vh;
         margin-bottom: 9vh;
     }
     .top_slogan_button {
@@ -671,9 +604,6 @@
         text-decoration: none;
         margin-right: 2vw;
         font-weight: bold;
-    }
-    .word_holder {
-        height: 40vh;
     }
 }
 @media only screen and (min-width: 1600px) {
