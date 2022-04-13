@@ -4,43 +4,21 @@
    box-sizing: border-box;
 }
 .s1 {
-    
-    width: 100vw;
-    height: 100vh;
-    top: 0%;
-    position: absolute;
     background-color: #0f0f0f
 }
 .s2 {
-    width: 100vw;
-    height: 100vh;
-    top: 100%;
-    position: absolute;
     background-color:  #0f0f0f;
 }
+body {
+    cursor: none;
+}
 .s3 {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 200%;
     display: flex;
     align-items: center;
     background-color: #e0dcdc;
 }
 .s4 {
-    width: 100vw;
-    height: 100vh;
-    
-    top: 300%;
-    position: absolute;
     background-color:  #0f0f0f;
-}
-.s5 {
-    
-    top: 400%;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
 }
 .slogan1 {
     color: white;
@@ -49,14 +27,6 @@
     margin-bottom: 5.281vh;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-}
-body {
-    overflow-x: hidden;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
-.section {
-    scroll-snap-align: start;
 }
 .top_slogan {
 
@@ -231,8 +201,6 @@ body {
     bottom: 0px;
 }
 .services_1, .services_2 {
-    
-    border: 1px solid #3c3c3c;
     width: 50%;
     height: 30vh;
 }
@@ -250,6 +218,7 @@ body {
     width: 35.2vh;
     margin-bottom: 50px;
 }
+
 .drive_special {
     display: block;
     margin: auto;
@@ -441,6 +410,7 @@ body {
     font-size: 40px;
 }
 .services_pag {
+    overflow: hidden;
     width: 100%;
     display: block;
     color: white;
@@ -452,10 +422,12 @@ body {
     font-weight: 300;
 }
 .services_pag i {
-    position: absolute;
+    position: relative;
+    left: 10px;
+    /* position: absolute;
     right: 5vh;
     margin-top: 0.616vh;
-    font-size: 2.2vh;
+    font-size: 2.2vh; */
 }
 .marginara {
     display: inline-block;
@@ -492,6 +464,26 @@ body {
 .bars_low:hover #projects_hover {
     display : block;
 } */
+.SR1R {
+    top: 0;
+    right: 50%;
+    width: 50vw;
+    height: 1px;
+}
+.SR2T  {
+    top: 0;
+    left: 50%;
+    width: 50vw;
+    height: 1px;
+}
+.SR2R {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+.services_1 i {
+}
 @media only screen and (min-width: 600px) {
     .drive_text {
         font-size: clamp(50px, 8.8vw, 60px);
@@ -512,6 +504,15 @@ body {
     }
 }
 @media only screen and (min-width: 1000px) {
+    .services_pag i {
+        position: absolute;
+        right: 5vh;
+        margin-top: 0.616vh;
+        font-size: 2.2vh;
+    }
+    .project_middle2 {
+        max-width: 80%;
+    }
     .section1_laptopdesktop {
         display: flex;
     }
@@ -558,8 +559,8 @@ body {
         left: 0px;
     }
     .services_1 {
+        color: white;
         top: 0px;
-        border-right: 1px solid #3c3c3c;
         border-bottom: none;
     }
     .services_2 {
@@ -707,6 +708,61 @@ body {
     }
     .word_holder {
         height: 40vh;
+    }
+    .SR2T {
+        width: 37.5vw;
+        left: 37.5vw;
+        transform: translate(-100%);
+        height: 1px;
+    }
+    .SR2R {
+        height: 50vh;
+        width: 1px;
+        bottom: 50vh;
+        left: 37.5vw; 
+    }
+    .SR1R {
+        height: 50vh;
+        width: 1px;
+        top: 50vh;
+        left: 37.5vw; 
+        transform: translateY(-100%);
+    }
+    .services_pag i {
+        position: absolute;
+        left: 93%;
+        transform: translate(-100%, 0);
+
+    }
+    .cursor {
+        width: 35px;
+        height: 35px;
+        position: fixed;
+        border: solid white 2px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        z-index: 9999999 !important;
+        transform: translate(-50%, -50%);
+    }
+    .cursor2 {
+        width: 15px;
+        height: 15px;
+        position: fixed;
+        background-color: white;
+        border-radius: 50%;
+        top: 0;
+        transition-duration: 500ms;
+        transition-timing-function: ease-out;
+        left: 0;
+        z-index: 9999999 !important;
+        transform: translate(-50%, -50%);
+    }
+    .cursor_projects {
+        display: none;
+        color: white;
+        z-index: 99 !important;
+        position: fixed;
     }
 }
 @media only screen and (min-width: 1600px) {
